@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indoor Plants</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      background-image: url(./image/aa.jpg);
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+    <h2>Indoor Plants</h2>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="plants.html">Plants</a>
+      <a href="Blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a> 
+    </nav>
+  </div>
+</header>
+
+<div class="form-container">
+
+<h2>Order Form</h2>
+
+<form action="#confirm-box">
+
+<label>Name</label>
+<input type="text" placeholder="Enter your name" class="input" required>
+
+<label>Address</label>
+<input type="text" placeholder="Enter your address" class="input" required>
+
+<label>Phone</label>
+<input type="tel" placeholder="Enter your phone number" class="input" required>
+
+<label>Payment</label>
+<select class="payment" required>
+<option value="">Select Payment</option>
+<option value="">KBZ Pay</option>
+<option value="">Wave Pay </option>
+<option value="">AYA Pay </option>
+
+
+</select>
+
+ <button type="submit" class="order-btn">Confirm Purchase</button>
+
+</div>
+
+</form>
+
+</div>
+
+<footer>
+  <p>&copy;2026 Indoor Plants | Designed by Nay San Ko</p>
+</footer>
+ <div id="confirm-box" class="modal-overlay">
+    <div class="modal-content">
+        <h3>Order Received!</h3>
+        <p>Thank you for choosing our store.</p>
+        <a href="#" class="close-btn">OK</a>
+    </div>
+</div>
+
+
+</body>
+</html>
